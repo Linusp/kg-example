@@ -11,7 +11,7 @@ Build graph
 python cli.py import-to-neo4j --url bolt://localhost:7687/ \
                               --auth "neo4j:myneo4j" \
                               --data-dir movie/ \
-                              --batch-size 1000
+                              --batch-size 1000 \
                               --drop-all
 ```
 
